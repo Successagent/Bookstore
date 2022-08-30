@@ -157,3 +157,39 @@ main {
 .link {
   cursor: pointer;
 }
+
+.basketCon-h3 {
+  color: white;
+}
+
+.empty {
+  text-align: center;
+}
+
+.basket-con {
+  padding: 20px;
+  border: #222222 solid 1px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.pay-btn {
+  margin-top: 20px;
+}
+
+
+.basket-con h2 {
+  font-size: 35px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.flex >div:nth-child(2) {
+  display: flex;
+  align-items: center;gap: 10px;
+}
